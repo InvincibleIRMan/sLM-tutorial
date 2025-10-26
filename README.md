@@ -130,7 +130,7 @@ Transferring knowledge from a larger "teacher" model to a smaller "student" mode
 Techniques that update only a small subset of model parameters, reducing memory requirements and training time.
 
 ### Quantization
-Converting model weights from high precision (FP32) to lower precision (INT8, INT4), dramatically reducing model size and inference speed.
+Converting model weights from high precision (FP32) to lower precision (INT8, INT4), dramatically reducing model size and improving inference speed.
 
 ### Context Window
 The maximum number of tokens a model can process at once. Smaller models often have smaller context windows but can still be effective for many tasks.
